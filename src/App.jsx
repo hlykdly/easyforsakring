@@ -5,15 +5,18 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div class="p-10 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex space-x-1">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <h1>Vite + React</h1>
-      <button onClick={() => setCount(count => count + 1)}>
-        count is {count}
+    <div class="text-center p-5 max-w-xl mx-auto rounded-xl shadow-lg space-x-8 m-8 bg-lime-100">
+      <p class="text-left text-3xl font-bold underline ">Hello world!</p>
+      <button
+        class="bg-slate-400 p-3 rounded-xl shadow-lg hover:bg-slate-500 m-5 text-lg font-bold"
+        onClick={() => setCount(count => count + 1)}
+      >
+        Count is {count}
       </button>
-      <p>
-        npm create vite@latest - npm run dev npm install -D tailwindcss postcss
-        autoprefixer - npx tailwindcss init
+
+      <p class="text-center">
+        npm create vite@latest <br></br> npm install -D tailwindcss postcss
+        autoprefixer <br></br> npx tailwindcss init <br></br> npm run dev
       </p>
     </div>
   )
