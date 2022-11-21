@@ -25,7 +25,7 @@ function App() {
         <p class="text-center p-4">
           Aajsdkj ASdkj kjlan kjfsk skjfa kj lk a sk akj asdj jasöl öl fdöls j g
           j gsdlöksdfj ödsfl j öfs dlj fs öj adasd lkjflk kjbf lkjf lkjab flkj
-          fakljb asd as djnöjk jkb ökjbhvouyvlhv ihvb iddfasfjbbj.
+          fakljb asd as djnöjk jkb ökjbhvouyvlhv ihvb iddfasfjbbj asdasd...
         </p>
       </div>
     </div>
