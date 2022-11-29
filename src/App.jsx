@@ -1,11 +1,10 @@
 import { useState } from "react"
-import "./App.css"
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div class="bg-lime-200">
+    <div class="mx-auto pt-10">
       <div class="text-center p-5 max-w-xl mx-auto rounded-xl shadow-lg bg-lime-100">
         <p class="text-left text-3xl font-bold underline ">Hello world!</p>
         <button
