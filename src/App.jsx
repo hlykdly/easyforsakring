@@ -4,7 +4,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div class="mx-auto pt-10">
+    <div class="pt-10">
       <div class="text-center p-5 max-w-xl mx-auto rounded-xl shadow-lg bg-lime-100">
         <p class="text-left text-3xl font-bold underline ">Hello world!</p>
         <button

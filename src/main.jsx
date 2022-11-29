@@ -6,7 +6,7 @@ import "./index.css"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <div className="bg-slate-600 flex h-screen">
+    <div className="bg-slate-600 h-screen">
       <App />
       <Sidebar />
     </div>
